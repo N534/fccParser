@@ -12,5 +12,6 @@ app.use(cors());
 app.use(express.static(__dirname));
 
 app.listen(3000,function(){
-	console.log('3000 is listening from parser');
+	console.log('3000 is listening from parser hello');
 });
+
